@@ -14,6 +14,7 @@ def current_player(game_board)
   if turn_count(game_board) % 2
     return "X"
   else
+    binding.pry
     return "0"
   end
 end
