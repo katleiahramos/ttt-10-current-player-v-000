@@ -1,4 +1,4 @@
-require "pry"
+
 
 def turn_count(board)
   counter = 0
@@ -14,7 +14,7 @@ def current_player(game_board)
   if turn_count(game_board) % 2
     return "X"
   else
-    binding.pry
+    puts turn_count
     return "0"
   end
 end
