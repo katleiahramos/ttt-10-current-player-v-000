@@ -17,5 +17,3 @@ def current_player(game_board)
     return "0"
   end
 end
-
-current_player(["O", " ", " ", " ", "X", " ", " ", " ", "X"])
