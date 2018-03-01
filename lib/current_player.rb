@@ -1,3 +1,4 @@
+require "pry"
 
 def turn_count(board)
   counter = 0
@@ -15,4 +16,4 @@ def current_player(game_board)
   else
     return "0"
   end
-end 
+end
