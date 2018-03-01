@@ -13,7 +13,6 @@ def current_player(game_board)
   if turn_count(game_board) % 2
     return "X"
   else
-    puts turn_count
     return "0"
   end
 end
